@@ -1,2 +1,2 @@
 # herve-website
-website of VR game "Herve - A Firefly's Journey "
+The official website of our team's VR game "Hervé, A Firefly's Journey"
