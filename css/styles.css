@@ -10,20 +10,10 @@ h2{font-size:2em;}
 h3{font-size:1.4em;}
 header>p{font-size:1.5em;}
 body>div>header,footer>header{font-family:Satisfy;font-size:3.5em;}
-body>div>div>div:nth-child(2),footer>p{font-size:1.2em;}
-
-/*Structure*/
-body,header,header>div,body>div,body>div>div,footer{display:-webkit-flex;display:flex;}
-body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){-webkit-flex-direction:row-reverse;flex-direction:row-reverse;}
-body>div>div>div:nth-child(1){-webkit-flex-grow:1;flex-grow:1;}
-body>div>div>div:nth-child(2){-webkit-flex-grow:100;flex-grow:100;}
-body,header,header>div,body>div,footer{-webkit-flex-direction:column;flex-direction:column;}
-header,header>div,body>div,footer{-webkit-align-items:center;align-items:center;}
 
 /*General*/
 body *{text-decoration:none;color:#000;}
 header *{color:#fff;}
-h1{margin-top:40px;}
 h2{margin-top:10px;}
 header>p{margin-top:30px;}
 header>img{width:125px;}
@@ -38,22 +28,42 @@ footer>header{
 	background:#0ece50;}
 body>div>div{width:100%;}
 body>div>div>div>a:hover{text-decoration:underline;}
-body>div>div>div{margin:10px;}
 body>div>div>div:nth-child(1){
 	min-width:100px;min-height:100px;
 	border-radius:100px;}
+/*
 body>div>div>div:nth-child(2){margin-top:25px;}
 body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){text-align:right;}
+*/
 header{background: url(../img/country.svg) no-repeat center bottom fixed;}
-body>div>div:nth-child(2)>div:nth-child(1){background: url(../img/maelle-carlier.jpg) no-repeat 10% 70%; background-size:210px 140px;}
-body>div>div:nth-child(3)>div:nth-child(1){background: url(../img/pierre-claisse.jpg) no-repeat 0% 10%; background-size:145px 145px;}
-body>div>div:nth-child(4)>div:nth-child(1){background: url(../img/lucas-horand.jpg) no-repeat 90% top	; background-size:105px 105px;}
-body>div>div:nth-child(5)>div:nth-child(1){background: url(../img/yohan-lebreton.jpg) no-repeat top right; background-size:100px 100px;}
-body>div>div:nth-child(6)>div:nth-child(1){background: url(../img/bettina-migot.jpg) no-repeat left center; background-size:100px 100px;}
-body>div>div:nth-child(7)>div:nth-child(1){background: url(../img/celine-noel.jpg) no-repeat right top; background-size:110px 110px;}
-header,body>div>div:nth-child(2)>div,body>div>div:nth-child(3)>div,body>div>div:nth-child(4)>div,body>div>div:nth-child(5)>div,body>div>div:nth-child(6)>div,body>div>div:nth-child(7)>div{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+
+
+#creators>div>div:nth-child(1)>div:nth-child(1){background: url(../img/maelle-carlier.jpg) no-repeat 10% 70%; background-size:210px 140px;}
+#creators>div>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-claisse.jpg) no-repeat 0% 10%; background-size:145px 145px;}
+#creators>div>div:nth-child(3)>div:nth-child(1){background: url(../img/lucas-horand.jpg) no-repeat 90% top	; background-size:105px 105px;}
+#creators>div>div:nth-child(4)>div:nth-child(1){background: url(../img/yohan-lebreton.jpg) no-repeat top right; background-size:100px 100px;}
+#creators>div>div:nth-child(5)>div:nth-child(1){background: url(../img/bettina-migot.jpg) no-repeat left center; background-size:100px 100px;}
+#creators>div>div:nth-child(6)>div:nth-child(1){background: url(../img/celine-noel.jpg) no-repeat right top; background-size:110px 110px;}
+
+.bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 footer{background:#0ece50;}
 footer>p{margin-bottom:10px;}
 
+html, body{
+	height : 100%;
+	width : 100%;
+}
 
+#titleScreen{
+	min-height : 100%;
+	text-align: center;
+}
 
+#titleScreen{
+	padding : 40px 0px 40px 0px;
+}
+
+.wrap{
+	max-width : 960px;
+	margin:auto;
+}
