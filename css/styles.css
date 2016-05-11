@@ -9,20 +9,25 @@ h1{font-size:7em;}
 h2{font-size:2em;}
 h3{font-size:1.4em;}
 header>p{font-size:1.5em;}
-body>div>header,footer>header{font-family:Satisfy;font-size:3.5em;}
+body>div>header,#download header,footer>header{font-family:Satisfy;font-size:3.5em;}
 
 /*General*/
-body *{text-decoration:none;color:#000;}
-header *{color:#fff;}
+*{cursor:default; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+a *{cursor:pointer !important;}
+body *{text-decoration:none;color:#fff;}
 h2{margin-top:10px;}
 header>p{margin-top:30px;}
 header>img{width:125px;}
 header>div{margin:25px 0;}
 header>div>a{margin-top:10px;}
 body>div{margin-bottom:10px;}
+body>div>header,#download header{
+	text-align:center;
+	margin:20px 0 30px 0;}
 body>div>header{
-	margin:20px 0 10px 0;
 	background:#fff;}
+#download header{
+	background:#804ee0;}
 footer>header{
 	margin:20px 0 10px 0;
 	background:#0ece50;}
@@ -55,7 +60,7 @@ body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){te
 */
 header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 
-
+#creators *{color:#000;}
 #creators>.row>div:nth-child(1)>div:nth-child(1){background: url(../img/maelle-carlier.jpg) no-repeat 10% 70%; background-size:210px 140px;}
 #creators>.row>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-claisse.jpg) no-repeat 0% 10%; background-size:145px 145px;}
 #creators>.row>div:nth-child(3)>div:nth-child(1){background: url(../img/lucas-horand.jpg) no-repeat 90% top	; background-size:105px 105px;}
@@ -67,22 +72,27 @@ header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 .bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 footer{background:#0ece50;}
 footer>p{margin-bottom:10px;}
-
 html, body{
 	height : 100%;
 	width : 100%;
 }
-
 #titleScreen{
 	min-height : 100%;
 	text-align: center;
 }
-
 #titleScreen{
 	padding : 40px 0px 40px 0px;
 }
-
 .wrap{
 	max-width : 980px;
 	margin:auto;
 }
+#download li:hover *{color:#400aa0;}
+blockquote{font-family:Courier;background:#602cc0;}
+#download{
+	background:#804ee0;
+	text-align:center;}
+#download ul{text-align:left;}
+#download ul p,#download *{display:inline-block;}
+#download ul li{display:block;}
+#download p{margin-left:20px;position:relative;top:-8px;}
