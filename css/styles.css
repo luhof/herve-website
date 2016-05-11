@@ -34,8 +34,28 @@ body>div>div>div>a:hover{text-decoration:underline;}
 #presentation{
 	background: url(../img/backgrounds/desert.png) no-repeat center bottom;
 	background-size: cover;
-	box-shadow: 0px -5px 30px rgba(0,0,0,0.5);
+	box-shadow: 0px -20px 30px rgba(0,0,0,0.2);
 	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#presentation #gallery img{
+	float : left;
+	max-width: 100px;
+	margin-right : 10px;
+	margin-bottom : 10px;
+}
+
+#presentation header{
+	background: none;
+	text-shadow : 0px 1px 0px rgba(0,0,0,0.1);
+}
+
+#presentation>h2{
+	text-align: center;
+	font-family : "Satisfy";
+	font-size : 3.5em;
+
 }
 
 

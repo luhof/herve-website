@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
 </head>
 <body>
 	<header id="titleScreen" class="bg-cover">
@@ -22,7 +23,7 @@
 		</div>
 	</header>
 	<div id="presentation">
-		<h1>The Game</h1>
+		<header>The Game</header>
 		<div class="row wrap">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<iframe src="https://player.vimeo.com/video/97680161?title=0&byline=0&portrait=0" width="100%" height="400px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -34,12 +35,20 @@
 				<h2>About</h2>
 				<p>
 					Hervé : a firefly’s journey is a contemplative experience developed and designed for the Oculus Rift.<br/>Fly like a firefly and take a walk in a wonderful and original world full of surprises. Be immersed in a dreamy universe, and take yourself to this one-of-a-kind stroll.
-				</p>	
+				</p>
+				<p>Hervé is a student project developped by 6 awesome devs from the IMAC creative engineering school in Paris.</p>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<h2>Screenshots</h2>
 				<div id="gallery">
-					ici y'aura des screenshots
+					<a class="fancybox" rel="group" href="img/screenshots/1.jpg"><img src="img/screenshots/1.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/2.jpg"><img src="img/screenshots/2.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/3.jpg"><img src="img/screenshots/3.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/4.jpg"><img src="img/screenshots/4.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/5.jpg"><img src="img/screenshots/5.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/6.jpg"><img src="img/screenshots/6.jpg" alt="screenshot" /></a>
+					<a class="fancybox" rel="group" href="img/screenshots/7.jpg"><img src="img/screenshots/7.jpg" alt="screenshot" /></a>
+
 				</div>
 			</div>
 			
@@ -71,7 +80,7 @@
 				<div></div>
 				
 					<h3>Pierre Claisse</h3>
-					<p>Town builder</p>
+					<p>Night worker</p>
 					<p>IMAC engineer</p>
 				<a target="_blank" href="https://www.pierreclaisse.com">
 					<i class="fa fa-globe" aria-hidden="true"></i>
@@ -89,7 +98,7 @@
 				<div></div>
 				
 					<h3>Lucas Hörand</h3>
-					<p>Desert designer</p>
+					<p>Git smasher</p>
 					<p>IMAC engineer</p>
 					<a target="_blank" href="https://www.luhof.fr">
 						<i class="fa fa-globe" aria-hidden="true"></i>
@@ -108,7 +117,7 @@
 
 					
 						<h3>Yohan Le Breton</h3>
-						<p>Blueprints crafter</p>
+						<p>Blueprint crafter</p>
 						<p>IMAC engineer</p>
 				<a target="_blank" href="https://www.yohanlebreton.fr">
 					<i class="fa fa-globe" aria-hidden="true"></i>
@@ -139,7 +148,7 @@
 					<div></div>
 					
 						<h3>Céline Noël</h3>
-						<p>C++ programmer</p>
+						<p>Fearless programmer</p>
 						<p>IMAC engineer</p>
 					<a target="_blank" href="https://www.linkedin.com/in/céline-noël-6aa045bb">
 						<i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -206,5 +215,16 @@
 	</footer>
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>	
 	<script src="js/bootstrap.min.js"></script>
+
+	<script src="fancybox/jquery.fancybox.js"></script>
+	<script>
+		$(document).ready(function() {
+			console.log("yay");
+			$(".fancybox").fancybox({
+        		padding : 0
+    		});
+		});
+	</script>
+
 </body>
 </html>
