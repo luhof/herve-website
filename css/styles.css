@@ -28,7 +28,7 @@ footer>header{
 	background:#0ece50;}
 body>div>div{width:100%;}
 body>div>div>div>a:hover{text-decoration:underline;}
-body>div>div>div:nth-child(1){
+#creators>.row>div>div:nth-child(1){
 	min-width:100px;min-height:100px;
 	border-radius:100px;}
 /*
@@ -38,12 +38,12 @@ body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){te
 header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 
 
-#creators>div>div:nth-child(1)>div:nth-child(1){background: url(../img/maelle-carlier.jpg) no-repeat 10% 70%; background-size:210px 140px;}
-#creators>div>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-claisse.jpg) no-repeat 0% 10%; background-size:145px 145px;}
-#creators>div>div:nth-child(3)>div:nth-child(1){background: url(../img/lucas-horand.jpg) no-repeat 90% top	; background-size:105px 105px;}
-#creators>div>div:nth-child(4)>div:nth-child(1){background: url(../img/yohan-lebreton.jpg) no-repeat top right; background-size:100px 100px;}
-#creators>div>div:nth-child(5)>div:nth-child(1){background: url(../img/bettina-migot.jpg) no-repeat left center; background-size:100px 100px;}
-#creators>div>div:nth-child(6)>div:nth-child(1){background: url(../img/celine-noel.jpg) no-repeat right top; background-size:110px 110px;}
+#creators>.row>div:nth-child(1)>div:nth-child(1){background: url(../img/maelle-carlier.jpg) no-repeat 10% 70%; background-size:210px 140px;}
+#creators>.row>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-claisse.jpg) no-repeat 0% 10%; background-size:145px 145px;}
+#creators>.row>div:nth-child(3)>div:nth-child(1){background: url(../img/lucas-horand.jpg) no-repeat 90% top	; background-size:105px 105px;}
+#creators>.row>div:nth-child(4)>div:nth-child(1){background: url(../img/yohan-lebreton.jpg) no-repeat top left; background-size:100px 100px;}
+#creators>.row>div:nth-child(5)>div:nth-child(1){background: url(../img/bettina-migot.jpg) no-repeat left center; background-size:100px 100px;}
+#creators>.row>div:nth-child(6)>div:nth-child(1){background: url(../img/celine-noel.jpg) no-repeat right top; background-size:110px 110px;}
 
 .bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 footer{background:#0ece50;}
