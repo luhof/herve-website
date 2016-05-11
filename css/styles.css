@@ -73,8 +73,8 @@ header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 #creators>.row:last-child>div:nth-child(1)>div:nth-child(1){background: url(../img/zephyr-perrier.jpg) no-repeat center center; background-size:110px 110px;}
 #creators>.row:last-child>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-villenave.jpg) no-repeat center center; background-size:110px 110px;}
 .bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-footer{background:#0ece50;padding-top:20px;}
-footer>p{margin-bottom:0px;}
+footer{background:#0ece50;padding:20px 0 10px 0;}
+footer>p{text-align:center;font-size:1.5em;}
 html, body{
 	height : 100%;
 	width : 100%;
