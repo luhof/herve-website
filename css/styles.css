@@ -1,20 +1,15 @@
-/*########## CSS RESET ##########*/
-
-/*http://meyerweb.com/eric/tools/css/reset/, v2.0 | 20110126, License: none (public domain)*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-
 /*########## OUR CSS ##########*/
 
 /*Typography*/
-@font-face{font-family:Satisfy-Regular;src:url(../fonts/Satisfy/Satisfy-Regular.ttf);}
-@font-face{font-family:Lora-Regular;src:url(../fonts/Lora/Lora-Regular.ttf);}
-body{font-family:Lora-Regular,Arial,serif;}
-h1,h3,header>p{font-family:Satisfy-Regular,Arial,sans-serif;}
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+body{font-family:Lora,Arial,serif;}
+h1,h3,header>p{font-family:Satisfy,Arial,sans-serif;}
 h1{font-size:7em;}
 h2{font-size:2em;}
 h3{font-size:1.4em;}
 header>p{font-size:1.5em;}
-body>div>header,footer>header{font-family:Satisfy-Regular;font-size:3.5em;}
+body>div>header,footer>header{font-family:Satisfy;font-size:3.5em;}
 body>div>div>div:nth-child(2),footer>p{font-size:1.2em;}
 
 /*Structure*/
@@ -59,3 +54,6 @@ body>div>div:nth-child(7)>div:nth-child(1){background: url(../img/celine-noel.jp
 header,body>div>div:nth-child(2)>div,body>div>div:nth-child(3)>div,body>div>div:nth-child(4)>div,body>div>div:nth-child(5)>div,body>div>div:nth-child(6)>div,body>div>div:nth-child(7)>div{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 footer{background:#0ece50;}
 footer>p{margin-bottom:10px;}
+
+
+
