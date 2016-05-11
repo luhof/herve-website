@@ -37,6 +37,18 @@ body>div>div>div>a:hover{text-decoration:underline;}
 #creators>.row>div{
 	text-align: center;
 }
+
+#creators>.row>div{
+	margin-bottom: 30px;
+}
+
+#creators a i{
+	padding: 5px;
+}
+#creators a:hover i{
+	background-color: lightblue;
+	color : white;
+}
 /*
 body>div>div>div:nth-child(2){margin-top:25px;}
 body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){text-align:right;}
@@ -50,7 +62,8 @@ header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 #creators>.row>div:nth-child(4)>div:nth-child(1){background: url(../img/yohan-lebreton.jpg) no-repeat top left; background-size:100px 100px;}
 #creators>.row>div:nth-child(5)>div:nth-child(1){background: url(../img/bettina-migot.jpg) no-repeat left center; background-size:100px 100px;}
 #creators>.row>div:nth-child(6)>div:nth-child(1){background: url(../img/celine-noel.jpg) no-repeat right top; background-size:110px 110px;}
-
+#creators>.row:last-child>div:nth-child(1)>div:nth-child(1){background: url(../img/zephyr-perrier.jpg) no-repeat center center; background-size:110px 110px;}
+#creators>.row:last-child>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-villenave.jpg) no-repeat center center; background-size:110px 110px;}
 .bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 footer{background:#0ece50;}
 footer>p{margin-bottom:10px;}
@@ -70,6 +83,6 @@ html, body{
 }
 
 .wrap{
-	max-width : 960px;
+	max-width : 980px;
 	margin:auto;
 }
