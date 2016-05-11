@@ -33,6 +33,17 @@ footer>header{
 	background:#0ece50;}
 body>div>div{width:100%;}
 body>div>div>div>a:hover{text-decoration:underline;}
+
+/*PRESENTATION STUFF*/
+#presentation{
+	background: url(../img/backgrounds/desert.png) no-repeat center bottom;
+	background-size: cover;
+	box-shadow: 0px -5px 30px rgba(0,0,0,0.5);
+	padding-top: 30px;
+}
+
+
+
 #creators>.row>div>div:nth-child(1){
 	width:100px;height:100px;
 	border-radius:100px;
