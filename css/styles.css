@@ -2,35 +2,31 @@
 
 /*Typography*/
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
-body{font-family:Lora,Arial,serif;}
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body{font-family:'Source Sans Pro',Arial,sans-serif;}
 h1,h3,header>p{font-family:Satisfy,Arial,sans-serif;}
+#subtitle{font-family:Lora,Arial,serif;}
 h1{font-size:7em;}
 h2{font-size:2em;}
 h3{font-size:1.4em;}
 header>p{font-size:1.5em;}
-body>div>header,#download header,footer>header{font-family:Satisfy;font-size:3.5em;}
+body>div>header,#download header,footer>header{font-family:Satisfy;font-size:3.5em;text-align:center;}
 
 /*General*/
-*{cursor:default; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+*{cursor:default;}
 a *{cursor:pointer !important;}
 body *{text-decoration:none;color:#fff;}
 h2{margin-top:10px;}
 header>p{margin-top:30px;}
 header>img{width:125px;}
-header>div{margin:25px 0;}
+header>div{margin:10px 0 25px 0;}
 header>div>a{margin-top:10px;}
-body>div{margin-bottom:10px;}
 body>div>header,#download header{
-	text-align:center;
 	margin:20px 0 30px 0;}
-body>div>header{
-	background:#fff;}
-#download header{
-	background:#804ee0;}
-footer>header{
-	margin:20px 0 10px 0;
-	background:#0ece50;}
+body>div>header{background:#fff;}
+#download header{background:#804ee0;}
+footer>header{background:#0ece50;}
 body>div>div{width:100%;}
 body>div>div>div>a:hover{text-decoration:underline;}
 
@@ -65,10 +61,6 @@ body>div>div>div>a:hover{text-decoration:underline;}
 	background-color: lightblue;
 	color : white;
 }
-/*
-body>div>div>div:nth-child(2){margin-top:25px;}
-body>div>div:nth-child(3),body>div>div:nth-child(5),body>div>div:nth-child(7){text-align:right;}
-*/
 header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 
 #creators *{color:#000;}
@@ -81,29 +73,37 @@ header{background: url(../img/country.svg) no-repeat center bottom fixed;}
 #creators>.row:last-child>div:nth-child(1)>div:nth-child(1){background: url(../img/zephyr-perrier.jpg) no-repeat center center; background-size:110px 110px;}
 #creators>.row:last-child>div:nth-child(2)>div:nth-child(1){background: url(../img/pierre-villenave.jpg) no-repeat center center; background-size:110px 110px;}
 .bg-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-footer{background:#0ece50;}
-footer>p{margin-bottom:10px;}
+footer{background:#0ece50;padding-top:20px;}
+footer>p{margin-bottom:0px;}
 html, body{
 	height : 100%;
 	width : 100%;
 }
 #titleScreen{
+	display:-webkit-flex;display:flex;flex-direction:column;-webkit-flex-direction:column;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;
 	min-height : 100%;
-	text-align: center;
-}
-#titleScreen{
 	padding : 40px 0px 40px 0px;
+}
+#titleScreen>div{
+	display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;
+	width:160px;
 }
 .wrap{
 	max-width : 980px;
 	margin:auto;
 }
 #download li:hover *{color:#400aa0;}
-blockquote{font-family:Courier;background:#602cc0;}
+blockquote{font-family:Courier;background:#602cc0;cursor:grabbing;}
 #download{
 	background:#804ee0;
 	text-align:center;}
 #download ul{text-align:left;}
 #download ul p,#download *{display:inline-block;}
 #download ul li{display:block;}
-#download p{margin-left:20px;position:relative;top:-8px;}
+#download p{padding-left:20px;position:relative;top:-10px;}
+
+@media screen and (min-width: 700px) {
+	body>header>h1 {font-size:12.5em !important;}
+	body>header>h2 {font-size:2.5em !important;}
+	body>header>p {font-size:2em !important;}
+}
